@@ -1,0 +1,154 @@
+.aide_a_la_prospection {
+    padding: 30px;
+    display: flex;
+    width: 60%;
+}
+
+.aide_a_la_prospection p {
+    color: green;
+}
+
+i.fa.fa-info-circle {
+    padding-right: 20px;
+}
+
+.my-istymo-dpe-container-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.dashboard-posts-list-head {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f7f7f7;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.dashboard-posts-list-head .small-column-wrap {
+    flex: 1;
+    min-width: 150px;
+    padding: 5px;
+}
+
+.dashboard-posts-list-head .column span {
+    font-weight: bold;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 25px;
+}
+
+button.btn2 {
+    border: none;
+    padding: 10px 25px;
+    background: #000064;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.dashboard-search-wrap-lead {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.disable-button {
+    pointer-events: none;
+    opacity: 0.5;
+    display: none;
+}
+
+.dashboard-search-form input[type=text] {
+    border: 1px solid #c7c7c7;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.property-column-wrap {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.small-column-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 5px;
+}
+
+.property-date {
+    display: block;
+}
+
+select#codePostal,
+select#codePostal-sci {
+    width: 115px;
+}
+
+.column.column-maps a {
+    color: #0054a6;
+}
+
+.column.column-date.siren span {
+    width: 50%;
+}
+
+p {
+    margin: initial;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .dashboard-search-wrap-lead {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    button.btn2 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .disable-button {
+        display: block;
+    }
+
+    .aide_a_la_prospection {
+        padding: 15px 0px;
+        display: flex;
+        width: 100%;
+    }
+
+    i.fa.fa-info-circle {
+        padding-right: 10px;
+    }
+
+    .dashboard-posts-list .column-date,
+    .dashboard-posts-list-head .column {
+        display: block;
+    }
+
+    .dashboard-posts-list .small-column-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .dashboard-posts-list-head,
+    .dashboard-posts-list .property-column-wrap {
+        flex-direction: column!important;
+    }
+
+    .my-istymo-dpe-container-form {
+        flex-direction: column;
+    }
+}
